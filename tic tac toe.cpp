@@ -111,7 +111,8 @@ bool functionthree()
 	   if(space[i][0]==space[i][1]&&space[i][0]==space[i][2]||space[0][i]==space[1][i]&&space[0][i]==space[2][i])
 	   {
 	   	return true;
-		   }	
+		   }
+	}
 		   for(int i=0;i<3;i++)
 		   {
 		   	for(int j=0;j<3;j++)
